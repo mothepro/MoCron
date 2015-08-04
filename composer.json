@@ -1,0 +1,20 @@
+{
+    "name": "mothepro/mo-cron",
+    "description": "A Binary which will run the cronjobs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maurice Prosper",
+            "email": "maurice.prosper@ttu.edu"
+        }
+    ],
+    "require": {
+		"php": ">=5.4.0",
+		
+		"hellogerard/jobby":	"dev-master",
+		"nette/neon":			"*"
+	},
+	"bin": [
+		"jobby.php"
+	]
+}
